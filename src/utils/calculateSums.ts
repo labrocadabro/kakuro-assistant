@@ -31,3 +31,18 @@ export function generateCombinations(digits: number, min: number = 1, max: numbe
 
   return result;
 }
+
+export function minSum(digits: number, min: number = 1, max = 9): number {
+  let result = 0;
+  for (let i = min; i < min + digits; i++) {
+    result += i;
+  }
+  return result;
+}
+export function maxSum(digits: number, max: number = 9): number {
+  let result = 0;
+  for (let i = max; i > max - digits; i--) {
+    result += i;
+  }
+  return result;
+}
