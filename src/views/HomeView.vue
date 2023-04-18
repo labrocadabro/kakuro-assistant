@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import SumsForm from '@/components/SumsForm.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <SumsForm />
   </main>
 </template>
